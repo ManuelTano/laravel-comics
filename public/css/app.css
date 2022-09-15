@@ -1,0 +1,63 @@
+body {
+  font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
+  margin: 0 auto;
+  height: 100vh;
+  background-color: black;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header {
+  background-color: #ffffff;
+  max-height: 160px;
+}
+
+.header-top {
+  background-color: #0282f9;
+  height: 25px;
+}
+.header-top ul li {
+  font-size: 12px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  height: 100%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 15px;
+}
+
+a {
+  color: #484646;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #0282f9;
+  border-bottom: 3px solid #0282f9;
+}
+
+#jumbo {
+  background-image: url(../images/jumbotron.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 400px;
+}

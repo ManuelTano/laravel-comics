@@ -1,51 +1,12 @@
+#jumbo {
+    background-image: url(../images/jumbotron.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    height: 400px;
+}
 
-h2 {
-    color: $white;
-  }
-  
-  .shop {
-    background-color: $blue;
-    padding: 25px;
-  }
-  
-  ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    cursor: pointer;
-  }
-  
-  ul li {
-    align-items: center;
-    display: flex;
-  }
-  
-  .shopping img {
-    width: 40px;
-    height: 50px;
-  }
-  
-  .shopping {
-    margin-left: 20px;
-  }
-  
-  span {
-    color: $white;
-    margin-left: 10px;
-  }
-  
-  .visa {
-    width: 50px;
-  }
-  
-  #cards {
-    padding-top: 40px;
-    padding-bottom: 40px;
-  }
-
-  .card {
+.card {
     display: flex;
     flex-wrap: wrap;
     li {
@@ -57,3 +18,5 @@ h2 {
     text-decoration: none;
     color: $white;
   }
+
+  

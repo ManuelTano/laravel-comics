@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+      <div class="header-top">
+        <div class="container">
+        <div class="row justify-content-end flex-end">
+          <div class="col-4 text-end">
+            <ul class="mt-1  p-0 m-0">
+              <li class="text-white mx-2">DC POWER VISA</li>
+              <li class="text-white">ADDITIONAL DC SITES</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      </div>
+      <div class="header-bottom ">
+        <div class="container">
+          <nav class="col-10">
+            <div class="image">
+              <img src="../images/dc-logo.png" alt="dc-logo" />
+            </div>
+            <ul class="text-start py-5">
+                <li><a href="">CHARACTERS</a> </li>
+                <li><a href="">COMICS</a> </li>
+                <li><a href="">MOVIES</a> </li>
+                <li><a href="">TV</a> </li>
+                <li><a href="">GAMES</a> </li>
+                <li><a href="">COLLECTIBLES</a> </li>
+                <li><a href="">VIDEOS</a> </li>
+                <li><a href="">FANS</a> </li>
+                <li><a href="">NEWS</a> </li>
+                <li><a href="">SHOP</a> </li> 
+            </ul>
+          </nav>
+        </div>
+      </div>
+       
+      </header>
+</body>
+</html>
