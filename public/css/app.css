@@ -7,11 +7,6 @@ body {
   padding: 0;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
-
 header {
   background-color: #ffffff;
   max-height: 160px;
@@ -60,12 +55,4 @@ a:hover {
   background-position: top;
   background-size: cover;
   height: 400px;
-}
-
-.card {
-  display: flex;
-  flex-wrap: wrap;
-}
-.card li {
-  width: 16.6666666667%;
 }
