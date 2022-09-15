@@ -1,0 +1,35 @@
+header {
+    background-color: $white;
+    max-height: 140px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+  }
+  
+  ul {
+    display: flex;
+    align-items: center;
+  
+    li {
+      height: 100%;
+      font-weight: bold;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+  
+  a {
+    color: $gray;
+    padding: 0px 10px;
+    text-decoration: none;
+  
+    &:hover {
+      color: $blue;
+      border-bottom: 3px solid $blue;
+    }
+  }
