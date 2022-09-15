@@ -1,0 +1,30 @@
+
+footer {
+  background-image: url(../images/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grey li {
+  color: $lightgray;
+}
+
+.bottom-footer {
+  background-color: $gray;
+  height: 100px;
+}
+
+.sign-up {
+  background-color: $gray;
+  color: $white;
+  border: 2px solid $blue;
+  padding: 5px 10px;
+}
+
+.dc-bg {
+  margin-top: -100px;
+}
+
+.bottom-footer {
+  margin-top: -25px;
+}

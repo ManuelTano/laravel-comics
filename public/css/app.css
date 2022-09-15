@@ -40,7 +40,7 @@ ul li {
 }
 
 a {
-  color: #484646;
+  color: #303030;
   padding: 0px 10px;
   text-decoration: none;
 }
@@ -49,10 +49,63 @@ a:hover {
   border-bottom: 3px solid #0282f9;
 }
 
+.ul-header {
+  margin-left: 135px;
+}
+
 #jumbo {
   background-image: url(../images/jumbotron.jpg);
   background-repeat: no-repeat;
   background-position: top;
   background-size: cover;
   height: 400px;
+}
+
+.bottone {
+  margin-top: -80px;
+  font-size: 30px;
+}
+
+.shop {
+  background-color: #0282f9;
+  padding: 25px;
+}
+
+.shop .col-2 img {
+  width: 25%;
+}
+
+.bottom-footer {
+  margin-top: -50px;
+  z-index: 2;
+}
+
+footer {
+  background-image: url(../images/footer-bg.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.grey li {
+  color: #8f8d8d;
+}
+
+.bottom-footer {
+  background-color: #303030;
+  height: 100px;
+}
+
+.sign-up {
+  background-color: #303030;
+  color: #ffffff;
+  border: 2px solid #0282f9;
+  padding: 5px 10px;
+}
+
+.dc-bg {
+  margin-top: -100px;
+}
+
+.bottom-footer {
+  margin-top: -25px;
 }
