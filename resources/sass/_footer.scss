@@ -3,6 +3,8 @@ footer {
   background-image: url(../images/footer-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 100px;
 }
 
 .grey li {
@@ -12,6 +14,11 @@ footer {
 .bottom-footer {
   background-color: $gray;
   height: 100px;
+  margin-top: -25px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .sign-up {
@@ -21,10 +28,12 @@ footer {
   padding: 5px 10px;
 }
 
-.dc-bg {
-  margin-top: -100px;
-}
 
-.bottom-footer {
-  margin-top: -25px;
+.col-6 {
+  max-height: 450px;
+  overflow: hidden;
+
+  img {
+    margin-top: -50px;
+  }
 }

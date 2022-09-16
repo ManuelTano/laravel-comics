@@ -24,8 +24,13 @@
         <div class="small-container">
             <div class="row">
                 <div class="col-8 m-0 p-0 ">
-                    <div class="cards">
-                        <img src="{{ $comic['thumb'] }}" alt="" class="thumb">
+                    <div class="cards ">
+                        <div class="relative">
+                            <img src="{{ $comic['thumb'] }}" alt="" class="thumb">
+                        </div>
+                        <div class="book text-center">
+                            <span class="text-uppercase">{{ $comic['type'] }}</span>
+                        </div>
                         <h4 class="title fw-bold mb-4">{{ $comic['title'] }}</h4>
                         <div class="row margin border-green">
                             <div class="col-9 border-right bg-green d-flex p-2 justify-content-between">
@@ -48,27 +53,73 @@
         </div>
     </section>
 
-    <section id="grigio">
-        <div class="small-container">
+    <section id="grigio" class="border-top">
+        <div class="small-container py-5">
 
-            <div class="row">
+            <div class="row justify-content-between">
                 <div class="col-6">
-                    <div class="row">
-                        <h3>Talent</h3>
+                    <div class="row border-bottom ">
+                        <h3 class="fw-bold mb-4">Talent</h3>
                     </div>
-                    <div class="row">
+                    <div class="row border-bottom py-1">
                         <div class="col-3">
                             Art by:
                         </div>
-                        <div class="col-9">
-                           
+                        <div class="col-9 text-blue">
+                            @foreach ($comic['artists'] as $artist)
+                                {{ $artist }} {{ !$loop->last ? ',' : '' }}
+                            @endforeach
+                        </div>
+                    </div>
+                    <div class="row border-bottom py-1">
+                        <div class="col-3">
+                            Written by:
+                        </div>
+                        <div class="col-9 text-blue">
+                            @foreach ($comic['writers'] as $writer)
+                                {{ $writer }} {{ !$loop->last ? ',' : '' }}
+                            @endforeach
                         </div>
                     </div>
                 </div>
-                <div class="col-6"></div>
+                <div class="col-6">
+                    <div class="row border-bottom">
+                        <h3 class="fw-bold mb-4">Specs</h3>
+                    </div>
+                    <div class="row border-bottom py-1">
+                        <div class="col-4">
+                            Series:
+                        </div>
+                        <div class="col-8">
+                            <span class="text-uppercase text-blue">{{ $comic['series'] }}</span>
+                        </div>
+                    </div>
+                    <div class="row border-bottom py-1">
+                        <div class="col-4">
+                            U.S. Price:
+                        </div>
+                        <div class="col-8">
+                            {{ $comic['price'] }}
+                        </div>
+                    </div>
+                    <div class="row border-bottom py-1">
+                        <div class="col-4">
+                            On Sale Date:
+                        </div>
+                        <div class="col-8">
+                            {{ $comic['sale_date'] }}
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
+        <div class="row">
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+            <div class="col-3"></div>
+        </div>
     </section>
 
     @include('layout.footer')

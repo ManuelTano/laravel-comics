@@ -47,3 +47,21 @@
 #grigio {
     background-color: #F6F6F6;
 }
+
+.text-blue {
+    color: $blue;
+}
+
+.book {
+    background-color: #00A9D9;
+    padding: 0px 5px;
+    color: white;
+    position: absolute;
+    top: 352px;
+    left: 441px;
+}
+
+.relative {
+    position: relative;
+
+}

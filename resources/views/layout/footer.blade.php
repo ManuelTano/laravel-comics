@@ -1,7 +1,7 @@
 <footer>
     <div class="container">
-        <div class="row text-white py-4">
-            <div class="col-2">
+        <div class="row text-white ">
+            <div class="col-2 mt-5">
                 <ul class="flex-column align-items-start p-0 m-0 grey mb-3">
                     <li class="text-white mb-3"><strong>DC COMICS</strong></li>
                     <li>Characters</li>
@@ -18,7 +18,7 @@
                     <li>Shop DC Collectibles</li>
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-2 mt-5">
                 <ul class="flex-column align-items-start p-0 m-0 grey">
                     <li class="text-white mb-3"><strong>DC</strong></li>
                     <li>Terms Of Use</li>
@@ -34,7 +34,7 @@
                     <li>Contact Us</li>
                 </ul>
             </div>
-            <div class="col-2">
+            <div class="col-2 mt-5">
                 <ul class="flex-column align-items-start p-0 m-0 grey">
                     <li class="text-white mb-3"><strong>SITES</strong></li>
                     <li>DC</li>
