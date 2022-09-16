@@ -15,8 +15,8 @@ $comics = config('comics');
             <div class="row text-white">
                 @foreach ($comics as $comic)
                     <div class="col-2 text-center py-2">
-                        <img src="{{ asset($comic['thumb']) }}" alt="">
-                        {{ $comic['series'] }}
+                        <a href="{{ route('products.comic', ['id' => $loop->index]) }}"> <img src="{{ $comic['thumb'] }}"
+                            alt=""></a>
                     </div>
                 @endforeach
             </div>

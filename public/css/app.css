@@ -2,7 +2,7 @@ body {
   font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
   margin: 0 auto;
   height: 100vh;
-  background-color: black;
+  background-color: #0282f9;
   box-sizing: border-box;
   padding: 0;
 }
@@ -75,11 +75,6 @@ a:hover {
   width: 25%;
 }
 
-.bottom-footer {
-  margin-top: -50px;
-  z-index: 2;
-}
-
 footer {
   background-image: url(../images/footer-bg.jpg);
   background-size: cover;
@@ -108,4 +103,28 @@ footer {
 
 .bottom-footer {
   margin-top: -25px;
+}
+
+#white {
+  background-color: #ffffff;
+}
+
+.bg-blue {
+  background-color: #0282f9;
+  height: 100px;
+  width: 100%;
+}
+
+.small-container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.thumb {
+  margin-top: -450px;
+  border: 1px solid #ffffff;
+}
+
+.title {
+  text-transform: uppercase;
 }
