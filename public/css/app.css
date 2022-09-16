@@ -2,7 +2,7 @@ body {
   font-family: "Segoe UI", "Open Sans", Helvetica, sans-serif;
   margin: 0 auto;
   height: 100vh;
-  background-color: #0282f9;
+  background-color: black;
   box-sizing: border-box;
   padding: 0;
 }
@@ -127,4 +127,28 @@ footer {
 
 .title {
   text-transform: uppercase;
+}
+
+.bg-green {
+  background-color: #55BA59;
+}
+
+.green {
+  color: #B5F789;
+}
+
+.margin {
+  margin-left: 0px;
+}
+
+.border-right {
+  border-right: 2px solid green;
+}
+
+.border-green {
+  border-bottom: 2px solid green;
+}
+
+#grigio {
+  background-color: #F6F6F6;
 }
